@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cresspresso">
+      <UniqueIdentifier>{574de35d-1d5f-4dfe-a2b6-c5d9eedd89a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cresspresso\ConceptTypes">
+      <UniqueIdentifier>{f12590c2-621c-421e-b5a6-8e4fa9fa6405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cresspresso\ConceptTypes\Core">
+      <UniqueIdentifier>{66803b28-9262-4a71-892f-a36e001f50ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cresspresso\ConceptTypes\Basic">
+      <UniqueIdentifier>{c0589424-48d5-4a29-85eb-3504ebfb8320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cresspresso\ConceptTypes\Core\Details">
+      <UniqueIdentifier>{77a09b7f-9943-486a-864a-934cd4b5f4e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Cresspresso\ConceptTypes.h">
+      <Filter>Header Files\Cresspresso</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Basic.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Basic\BasicConcepts.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Callables.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Concepts.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\forall.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\TypeList.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Details\TypeList_Detail1.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Details\TypeList_Detail2.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Basic\MapSelf.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Details\forall_Detail1.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core\Details</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cresspresso\ConceptTypes\Core\Details\forall_Detail2.h">
+      <Filter>Header Files\Cresspresso\ConceptTypes\Core\Details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+#ifndef CRESSPRESSO_ExampleTypes_Tests_HeaderGuard_TypeListTests_h
+#define CRESSPRESSO_ExampleTypes_Tests_HeaderGuard_TypeListTests_h
+
+namespace Cresspresso_Tests::ConceptTypes_Tests
+{
+	void type_list_tests();
+}
+
+#endif // CRESSPRESSO_ExampleTypes_Tests_HeaderGuard_TypeListTests_h
