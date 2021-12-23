@@ -9,7 +9,7 @@ They can be used to declare concepts inside of classes, template specializations
 
 This is a header only library with multiple header files.
 
-1. Add the `ConceptTypes/include` directory to your own project's includes so that your build system detects it. (Copy the `Cresspresso` folder to your project.)
+1. Add the `ConceptTypes/include/Cresspresso` directory to your own project's includes so that your build system detects it. (Copy the `Cresspresso` folder to your project.)
 2. `#include <Cresspresso/ConceptTypes.h>`
 
 ## Examples
